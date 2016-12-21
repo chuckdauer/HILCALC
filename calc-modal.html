@@ -1,0 +1,65 @@
+<html>
+  <head></head>
+  <body>
+    <div>
+      <h1>KWIK CAST CAST-IN PROBLEM SOLVER.</h1>
+      <h2>Kwik Cast Savings Calculator</h2>
+      <ul>
+        <li>Avoid additional costs to post-install anchors becaue your cast-in anchors were kicked over or filled concrete</li>
+        <li>Improve your jobsite productivity and reduce labor costs</li>
+        <li>Improve your project margins > add money to your bottom line</li>
+      </ul>
+      <img src="" /><img src="" />
+      <a href="#">Shop Kwik Cast Portfolio ></a>
+      <a href="#">RESET CAlCULATOR</a>
+    </div>
+    <div>
+      <form>
+        <div>
+          <label for="a">Project Size (Number of Floors)</label><input type="number" id="a" min="10" max="50" step="10" value="10" />
+          <label for="b">Average # of cast in anchors per floor</label><input type="number" id="b" min="300" max="1500" step="200" value="300" />
+          <label for="c">Average cost of cast-in anchors</label><input type="text" id="c" /><p>$ USD / pc</p>
+          <label for="d">Average labor cost per hour</label><input type="text" id="d" /><p>$ USD / hr</p>
+          <label for="e">Average % of cast-in anchors lost</label><input type="number" id="e" min="3" max="10" step="1" value="3" />
+        </div>
+        <div>
+          <h3>LOSING YOUR CAST-IN ANCHOR CAUSES YOU TO POST-INSTALL</h3>
+          <label for="f">Average cost of post-installed anchor (e.g. stud, drop-in)</label><input type="text" id="f" /><p>$ USD / pc</p>
+          <label for="g">Average number of minutes needed to post-install (drill, instert, set, etc.)</label><input type="text" id="g" /><p>min / anchor</p>
+        </div>
+        <div>
+          <h3>RESULTS</h3>
+          <p>Original cast-in install costs</p>
+          <label for="h-1">Anchor</label><input type="text" id="h-1" />
+          <!-- Formula: [a x b x c] = h-1 -->
+          <label for="h-2">Labor</label><input type="text" id="h-2" />
+          <!-- Formula: [a x b x(d/60 x 2minutes)] = h-2 -->
+          <label for="h-3">Total</label><input type="text" id="h-3" />
+          <!-- Formula: [a x b x c] + [a x b x(d/60 x 2minutes)] = h-3 OR [h-1 + h-2] = h-3 -->
+        </div>
+        <div>
+          <h3>SAVINGS FROM USING KWIK CAST</h3>
+          <p>Cost of lost cast-in anshors</p>
+          <label for="i-1">Anchor</label><input type="text" id="i-1" />
+          <!-- Formula: [a x b x c X e]  = i-1 -->
+          <label for="i-2">Labor</label><input type="text" id="i-2" />
+          <!-- Formula: [a x b x e x(d/60 x 2minutes)] = i-2 -->
+          <label for="i-3">Total</label><input type="text" id="i-3" />
+          <!-- Formula: [a x b x c x e] + [a x b x e x(d/60 x 2minutes)] = i-3 OR [i-1 + i-2] = i-3 -->
+        </div>
+        <div>
+          <p>KCS saves you</p>
+          <label for="j-1">Anchor</label><input type="text" id="j-1" />
+          <!-- Formula: [a x b x e x f] = j-1 -->
+          <label for="j-2">Labor</label><input type="text" id="j-2" />
+          <!-- Formula: [a x b x e x(d/60 x g)] = j-2 -->
+          <label for="j-3">Total</label><input type="text" id="j-3" />
+          <!-- Formula: [a x b x e x f] + [a x b x e x(d/60 x g)] = j-3 OR [j-1 + j-2] = j-3 -->
+        </div>
+      </form>
+    <div>
+    <div>
+      <a href="#">X</a>
+    </div>
+  </body>
+</html>
